@@ -63,3 +63,11 @@ kaggle.json
 
 # Environment variables
 .env
+
+# Large data files
+*.zip
+asteroid-dataset.zip
+data/raw/*.csv
+data/raw/dataset.csv
+data/raw/asteroid.csv
+asteroid-dataset.zip
