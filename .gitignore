@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+env/
+venv/
+asteroid_env/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (don't commit large datasets)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.csv
+data/balanced/*.csv
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# Models (large binary files)
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pth
+models/spark/*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Output files
+output/predictions/*.csv
+output/reports/*.pdf
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Kaggle credentials (NEVER commit this!)
+kaggle.json
+
+# Environment variables
+.env
